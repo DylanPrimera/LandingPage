@@ -90,32 +90,8 @@ body{
     src: url(../font/Sarllett.otf);
 }
 
-
-#talus{
-    margin-top: 10px;
-    font-family: sarl;
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-    color: aliceblue;
-}
-#talus1{
-     font-family: sarl;
-    font-size: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: aliceblue;   
-}
-#talus2{
-    font-family: sarl;
-    font-size: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: aliceblue;
-}
+/*está será la que dividirá al div en dos columnas*/
+/*alinio los items para que estén centrados en el bloque*/
 .dous{
     align-items: center;
     justify-content: center;
@@ -128,17 +104,26 @@ body{
 .tulas{
     display: flex;  
     flex-direction: row;
-    margin-top: 10px;
-   
-   
-    
+    margin-top: 10px;   
 }
+.andro{
+    margin-left: 10px;  
+    margin-top: 10px;
+    background-image: url(../images/palacho.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+    height: 506px;
+    width: 900px;
+}
+
 #diver{
     margin-top: 90px;
     margin-left: 200px;
     align-items: center;
     justify-content: center;
 }
+/*proipiedades para el div y para simular el botón de play now*/
 #plei{
     margin-left: 335px;
     margin-top: 200px;
@@ -160,14 +145,4 @@ body{
 #plei:hover{
     background-color: #0e343c;
     color: #2db0ca;
-}
-.andro{
-    margin-left: 10px;  
-    margin-top: 10px;
-    background-image: url(../images/palacho.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;  
-    height: 506px;
-    width: 900px;
 }
