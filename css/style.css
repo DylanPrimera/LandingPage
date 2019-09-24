@@ -49,7 +49,7 @@ table {
 body{
     width: 1900px;
     height: 600px;
-    background: #0e343c;
+    background: #0e222b;
 }
 /*asigno los atributos del "header" pongo que  el contenido tenga espacios entre si, tambien display para que no esté en cascada*/
 .jeder{
@@ -81,7 +81,7 @@ body{
 }
 /*el hover para que me de la sensación de que sea un botón*/
 .menu ul li a:hover{
-    background-color: #0e343c;
+    background-color: #0e222b;;
     color: #2db0ca;
 }
 /*la siuiente propiedad es para usar las fuentes descargadas*/
@@ -145,4 +145,65 @@ body{
 #plei:hover{
     background-color: #0e343c;
     color: #2db0ca;
+}
+/*atributos del footer para separalo por columnas*/
+footer{
+    background: #0e343c;
+    color: white;
+    font-family: sarl;
+    font-size: 25px;
+}
+/*en esta parte es donde hago que el footer tenga las columnas con sus estilos y tamaños*/
+.container-body{
+    display: flex;
+}
+.column1{
+    width: 2000px;
+    margin-left: 25px;
+    margin-top: 20px;
+    
+}
+.column1 p{
+    margin-top: 20px;
+    color: #c7c7c7;
+}
+.column2{
+    width: 600px;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+}
+.column2 a{
+    text-decoration: none;
+    color: #c7c7c7;
+    margin-left: 10px;   
+    margin-top: 5px;
+}
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+.row img{
+    width: 36px;
+    height: 35px;
+    
+}
+
+.column3{
+    width: 600px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+.row2 img{
+    width: 36px;
+    height: 33px;
+}
+.row2 label{
+    color: #c7c7c7;
+    margin-left: 10px;   
+    margin-top: 5px;
 }
