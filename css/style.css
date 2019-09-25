@@ -117,16 +117,11 @@ body{
     width: 900px;
 }
 
-#diver{
-    margin-top: 90px;
-    margin-left: 200px;
-    align-items: center;
-    justify-content: center;
-}
+
 /*proipiedades para el div y para simular el botón de play now*/
 #plei{
     margin-left: 335px;
-    margin-top: 200px;
+    margin-top: 400px;
     border: 1px solid;
     display: flex;  
     align-items: center; 
